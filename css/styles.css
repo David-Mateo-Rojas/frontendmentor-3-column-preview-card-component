@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+.big-box {
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 33.33%;
+  padding: 49px;
+  flex: 33.33%;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+
+.ti {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 248%;
+  margin: 30px;
+  margin-left: 0;
+}
+
+.inside {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 100;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.buu {
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin-top: 70px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.buu:hover {
+  cursor: pointer;
+}
+
+.buu1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.buu1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.buu2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.buu2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.buu3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.buu3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+  margin: auto;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 875px) {
+  .big-box {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .sedan {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 10px 10px;
+  }
+
+    .buu {
+    margin-top: 15px;
+  }
+}
